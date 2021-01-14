@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(PHOTOS/2ndbg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	
+	
+}
+.navbar{
+	
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgb(192,192,192,0.3);
+}
+ .navbar .logo{
+	
+	width: 170px;
+	height: auto;
+	padding: 5px 50px;
+} 
+.navbar ul{
+	float: right;
+	margin-right: 70px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: white;
+	border-radius: 2px;
+}
+
+h1 {
+	color: orange;
+	text-align: center;
+	font-size: 38px;	
+}
+
+.fam1 {
+	width:400px;
+	height: 230px;
+	margin-left: 10px;
+	
+	border-radius: 8px;
+
+}
+
+.fam1:hover {
+		box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);
+}
+.fam2 {
+	width: 400px;
+	height: 215px;
+	margin-left: 10px;
+	border-radius: 8px;
+
+}
+
+.fam2:hover {
+		box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);
+}
+
+
+.p1  {
+	border: 10px outset white;
+	text-align: center;
+	width: 900px;
+	float: right;
+	margin-right:9px;
+	margin-top:-5px;
+	}
+.p1:hover {
+		box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);
+}
+
+p {
+	color: white;
+	font-size: 20px;
+}
+
+.2ndwrapper{
+	background: url(2ndbg.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.2nd {
+	margin-top: 100px;
+}
+
+.stren {
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.SW {
+	border: 10px outset white;
+	text-align: center;
+	width: 650px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+
+.SW2 {
+	border: 10px outset white;
+	text-align: center;
+	width: 600px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+
+}
+.SW:hover {
+		box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);
+}
+.SW2:hover {
+		box-shadow: 0 0 15px 10px rgba(0, 140, 186, 0.5);
+}
+
